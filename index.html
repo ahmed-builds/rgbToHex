@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB to HEX | Ahmed Mohammed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <div id="containerTitle">RGB to HEX Convertor</div>
+        <div id="r_container" class="rgbContainer">
+            <input type="range" min="0" max="255" value="255" class="slider" id="rValue">
+            <span id="rValues" class="rgbValues"></span>
+        </div>
+        <div id="g_container" class="rgbContainer">
+            <input type="range" min="0" max="255" value="0" class="slider" id="gValue">
+            <span id="gValues" class="rgbValues"></span>
+        </div>
+        <div id="b_container" class="rgbContainer">
+            <input type="range" min="0" max="255" value="0" class="slider" id="bValue">
+            <span id="bValues" class="rgbValues"></span>
+        </div>
+        <div id="rgbValue"></div>
+        <div id="hexValue"></div>        
+        <button id="copyValue">Copy</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
